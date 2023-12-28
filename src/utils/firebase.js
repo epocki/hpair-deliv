@@ -44,7 +44,7 @@ export const db = getFirestore();
 export function SignInScreen() {
    return (
       <div>
-         <h1>Sign in to Links for Climate Good</h1>
+         <h1>Sign in to HPAIR Deliverable - EK</h1>
          <p>Please sign-in with your Googe account:</p>
          <StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={firebase.auth()} />
       </div>

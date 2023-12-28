@@ -28,7 +28,8 @@ export async function updateEntry(entry) {
       name: entry.name,
       email: entry.email,
       description: entry.description,
-      category: entry.category
+      category: entry.category,
+      stage: entry?.stage || 0,
    });
 }
 

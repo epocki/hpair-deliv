@@ -10,3 +10,5 @@ export const categories = [
 export function getCategory(category_id) {
    return categories.find(x => x.id === category_id)
 }
+
+// EK: why not just use index?
